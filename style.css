@@ -1,0 +1,48 @@
+/* ============== Color variables ============== */
+:root {
+    --green-color: #304D30;
+    --bg-color: #EEF0E5;
+  }
+  
+/* ============== Change the background color ============== */
+  body {
+    background: var(--bg-color) !important;
+  }
+  
+  /* ============== Change the color ============== */
+  .nav-item .nav-link {
+    color: var(--green-color);
+  }
+  
+  /* ============== Banner ============== */
+  .hero {
+    height: 100vh;
+    background-image: url("Asset_Images/WebBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* ============== Project Pics ============== */
+  .projects img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* ============== Curriculum Pics ============== */
+  .curriculum img {
+    width: 230px;
+  }
+
+  /* ============== Social media icons sizing ============== */
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+  }
+
+/* ============== Footer ============== */
+  .footer {
+    background-color: #304D30;
+    text-align: center;
+}
+  
